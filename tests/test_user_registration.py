@@ -1,11 +1,12 @@
 from selene.support.shared import browser
 
+
 from demo_qa_tests.model.pages import registration_form
 from utils import unit_9_attach
 
 
 
-def test_submit_student_details(open_and_quit_browser_automation_practice_form):
+def test_submit_student_details():
     registration_form.set_first_name('Никита')
     registration_form.set_last_name('Кузнецов')
     registration_form.set_email('mamintargetolog@gmail.com')

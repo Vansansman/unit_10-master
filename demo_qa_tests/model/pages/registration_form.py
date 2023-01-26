@@ -2,9 +2,9 @@ import allure
 from selene import command
 from selene.support.conditions import have
 from selene.support.shared.jquery_style import s
-
 import files
 from demo_qa_tests.model.controls import dropdown, date_controls
+
 
 
 def set_first_name(first_name):
